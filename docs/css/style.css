@@ -1,0 +1,135 @@
+
+html{
+    background-color: #aad4cf;
+
+    font-family:sans-serif;
+    font-weight: 200;
+}
+
+header {
+
+    width: 1024px;
+    height: 341px;
+    overflow: hidden;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    font-size:x-large;
+    font-weight: 300;
+
+}
+
+main, footer {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #cfece9;
+}
+
+header img {
+
+    position: absolute;
+
+}
+
+header h1 {
+
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 165px;
+    color: azure;
+
+}
+
+tr {
+    top: 0;
+    left: 0;
+}
+
+nav th {
+    width: fit-content;
+    margin: 0;
+    padding-top: 10px;
+    background-color: darkgrey;
+    display: inline-block;
+    
+}
+
+nav th a:link,
+nav th a:visited{
+
+    text-decoration: none;
+    background: #cfece9;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-left: 124px;
+    padding-right: 124px;
+    text-align: center;
+    font-size: 150%;
+}
+
+article {
+    display: inline-block;
+}
+
+article h2 {
+
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 168%;
+
+}
+
+article p {
+
+    padding: 10px;
+    margin: 0;
+    line-height: 133%;
+    padding-bottom: 30px;
+
+}
+
+article img {
+    
+    padding: 10px;
+    padding-top: 0px;
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+div h3 {
+
+    padding-left: 10px;
+    font-size: 140%;
+    margin:0;
+
+}
+
+div ul {
+
+    padding-left: 30px;
+
+    padding-top: 15px;
+    
+    line-height: 133%;
+
+    margin: 0;
+
+    padding-bottom: 30px;
+}
+
+.contact {
+    margin:10px;
+    border: black solid 1px;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+div input, div textarea {
+    margin: 10px;
+}
